@@ -12,7 +12,8 @@
     "url": "git+ssh://git@github.com/iCheques/consulta-protestos.git"
   },
   "files": [
-    "dist/**",
+    "dist/index.js",
+    "dist/index.d.ts",
     "package.json"
   ],
   "keywords": [
