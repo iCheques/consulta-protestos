@@ -12,6 +12,7 @@ Com a @credithub/consulta-protesto, consultar protestos é mais fácil que pedir
 
 * **Fácil de usar:** Instalou, configurou a variável de ambiente `CREDITHUB_APIKEY` e pronto! 
 * **Seguro:** Suas chaves de API ficam protegidas, longe de olhares curiosos. 🕵️‍♀️
+* **Tipado**: Tipagem completa em TypeScript, você terá segurança e produtividade na hora de desenvolver. 💪
 * **Flexível:** Use em qualquer projeto Node.js, do mais simples ao mais complexo.
 * **Divertido:** Chega de códigos chatos, agora você pode até dar risada enquanto consulta protestos! 🤣
 
