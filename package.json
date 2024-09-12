@@ -1,6 +1,6 @@
 {
   "name": "@credithub/consulta-protesto",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Consulta de Protestos para CPF e CNPJ",
   "main": "dist/index.js",
   "scripts": {
