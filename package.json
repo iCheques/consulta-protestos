@@ -1,0 +1,45 @@
+{
+  "name": "@credithub/consulta-protesto",
+  "version": "1.0.0",
+  "description": "Consulta de Protestos para CPF e CNPJ",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/iCheques/consulta-protestos.git"
+  },
+  "files": [
+    "dist/**",
+    "package.json"
+  ],
+  "keywords": [
+    "consulta",
+    "protesto",
+    "cenprot",
+    "ieptb",
+    "divida",
+    "credito"
+  ],
+  "author": "CreditHub <suporte@credithub.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iCheques/consulta-protestos/issues"
+  },
+  "homepage": "https://github.com/iCheques/consulta-protestos#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.10.0",
+    "@types/jest": "^29.5.13",
+    "eslint": "^9.10.0",
+    "globals": "^15.9.0",
+    "typescript": "^5.6.2",
+    "typescript-eslint": "^8.5.0"
+  },
+  "dependencies": {
+    "@credithub/webservice": "^1.1.2",
+    "jest": "^29.7.0",
+    "xpath": "^0.0.34"
+  }
+}
