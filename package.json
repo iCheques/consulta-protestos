@@ -1,6 +1,6 @@
 {
   "name": "@credithub/consulta-protesto",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Cliente Node.js para consulta de protestos por CPF e CNPJ na API CreditHub",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
