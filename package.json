@@ -1,11 +1,13 @@
 {
   "name": "@credithub/consulta-protesto",
   "version": "1.0.3",
-  "description": "Consulta de Protestos para CPF e CNPJ",
+  "description": "Cliente Node.js para consulta de protestos por CPF e CNPJ na API CreditHub",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "test": "npm run build && jest --runInBand",
+    "prepack": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -35,12 +37,12 @@
     "@types/jest": "^29.5.13",
     "eslint": "^9.10.0",
     "globals": "^15.9.0",
+    "jest": "^29.7.0",
     "typescript": "^5.6.2",
     "typescript-eslint": "^8.5.0"
   },
   "dependencies": {
     "@credithub/webservice": "^1.1.2",
-    "jest": "^29.7.0",
     "xpath": "^0.0.34"
   }
 }
